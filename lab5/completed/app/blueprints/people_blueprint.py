@@ -56,6 +56,7 @@ def find_person():
 # Task 8: Add a route to redirect all unknown requests to the 404 page
 
 
+
 class SearchForm(FlaskForm):
     # Task 6: Define the variables below using IntegerField and SubmitField
     id = IntegerField("No. of the prime minister", [DataRequired()])
